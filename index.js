@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { AppRegistry } from 'react-native';
 
-export default class app7 extends Component {
-  render(){
-    return(
-      <Text>BAnanan</Text>
-    );
-  }
-}
+import App from './src/App';
 
-AppRegistry.registerComponent('simpleCalculator', () => app7);
+const app7 = () => (
+  <App />
+);
+
+AppRegistry.registerComponent('simpleCalculator', () => app7 );
